@@ -1,0 +1,14 @@
+{
+  "name": "pinol",
+  "version": "1.0.0",
+  "description": "This is Pinol, a transporter tool top manage VPS infrastructure and automate deployment process with NGINX settings out-of-the-box, come down and look at this!!.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0"
+  }
+}
