@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -16,7 +17,9 @@ export default function Login() {
               <label>Password</label>
               <input type="password" />
             </div>
-            <button>Log In</button>
+            <button>
+              <Link href="/">Log In</Link>
+            </button>
           </form>
         </div>
       </main>

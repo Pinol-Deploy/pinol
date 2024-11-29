@@ -11,6 +11,10 @@
     color: var(--pinol-text-color);
 }
 
+body {
+    background-color: var(--pinol-background-color);
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --pinol-accent-color: #af3a03;
