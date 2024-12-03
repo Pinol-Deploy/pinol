@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Login() {
   return (
     <div>
-      <main>
+      <main className={styles.pinol__form__body}>
         <div className={styles.pinol__form_container}>
           <form className={styles.pinol__form}>
             <h1>Login to Pinol Dashboard</h1>
